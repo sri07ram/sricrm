@@ -1,0 +1,7 @@
+from sricrm.serializers.otpverifyserializer import OTPVerifySerializer
+from sricrm.serializers.otpgenerateserializer import GenerateOTPSerializer
+from sricrm.serializers.registerserializer import UserRegisterSerializer
+from sricrm.serializers.userprofileserializer import UserProfileSerializer
+from sricrm.serializers.loginserializer import LoginSerializer
+from sricrm.serializers.companyserializer import CompanySerializer
+from sricrm.serializers.organizationserializer import OrganizationSerializer
