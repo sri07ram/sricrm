@@ -35,4 +35,3 @@ class LoginView(KnoxLoginView):
             "user_type": login_type,
             "token": token
         })
-    #modified login view da
