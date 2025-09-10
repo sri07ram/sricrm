@@ -8,7 +8,7 @@ from sricrm.models.USER import Users
 from sricrm.models.verifiedemail import VerifiedEmail
 from sricrm.models.company import Company
 
-
+#organization view
 class OrganizationView(APIView):
     @swagger_auto_schema(request_body=OrganizationSerializer)
     def post(self, request):
@@ -61,5 +61,3 @@ class OrganizationView(APIView):
 
         serializer = OrganizationSerializer(org)
         return Response(serializer.data)
-
-#modified
